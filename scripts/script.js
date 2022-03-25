@@ -86,30 +86,3 @@ function changeTheme() {
     localStorage.setItem("currentTheme", "black");
   }
 }
-
-const pattern = [
-  "ArrowUp",
-  "ArrowDown",
-  "ArrowUp",
-  "ArrowLeft",
-  "ArrowRight",
-  "ArrowLeft",
-  "ArrowRight",
-  "ArrowDown",
-  "a",
-  "s",
-];
-let at = 0;
-document.addEventListener("keydown", (key) => {
-  if (key.key === pattern[at]) {
-    at++;
-  } else {
-    at = 0;
-    return;
-  }
-  if (at >= pattern.length) {
-    const tit = (document.getElementById(
-      "title"
-    ).textContent = `pssst... check my onlyfans!`);
-  }
-});
