@@ -45,7 +45,7 @@ header a:hover {
   color: var(--accent-hover);
 }
 
-#title {
+.title {
   color: var(--accent);
   font-size: 35px;
   font-weight: bold;
